@@ -1,0 +1,47 @@
+header {
+  
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background: linear-gradient(to right, var(--grey), var(--darkgrey))
+}
+.topnav {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+    header{
+        justify-content: space-around;
+        position: sticky;
+        top: 0;
+    }
+  .header_button .button2 {
+    display: none;
+  }
+  .topnav {
+    display: flex;
+    background-color: var(--darkblue);
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  .topnav a {
+    float: left;
+    color: var(--lightblue);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 600;
+    align-self: center;
+  }
+
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: var(--lightblue);
+    color: var(--darkblue);
+    transition: .5s;
+  }
+  .topnav a:not(:hover){
+    transition: .5s;
+  }
+}

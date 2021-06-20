@@ -1,0 +1,23 @@
+:root{
+    --lightblue:#88BDBC;
+    --lightblue2: #88BDBC;
+    --blue:#254e58;
+    --darkblue:#112D32;
+    --darkgrey:#4F4A41;
+    --grey:#6e6658;
+}
+
+html{
+    background: linear-gradient(var(--blue), var(--lightblue));
+    font-family: Roboto, 'Open Sans', sans-serif;
+}
+body{
+    max-width: 960px;
+    margin: auto;
+}
+.espace{
+    height: 3000px;
+}
+
+@media screen and (min-width:375px){
+}

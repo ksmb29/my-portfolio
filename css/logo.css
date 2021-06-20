@@ -1,0 +1,12 @@
+.logo{
+    border: 3px solid var(--lightblue);
+    line-height: 0;
+    border-radius: 8px;
+    padding: 4px 10px;
+    color: var(--lightblue);
+    box-shadow: 0px 1px 3px 1px #112D32;
+    background-color: var(--darkblue);
+}
+.logo h1{
+    padding: 3px 5px;
+}

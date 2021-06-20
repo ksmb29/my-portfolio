@@ -1,0 +1,35 @@
+.header_button{
+    display: flex;
+}
+.button{
+    border: 3px solid var(--darkblue);
+    align-self: center;
+    padding: 20px 25px;
+    text-transform: uppercase;
+    color: var(--blue);
+    font-weight: 900;
+    border-radius: 8px;
+    background: var(--lightblue);
+    cursor: pointer;
+    text-align: center;
+}
+.button2{
+    border: 3px solid var(--lightblue);
+    align-self: center;
+    padding: 20px 25px;
+    text-transform: uppercase;
+    color: var(--lightblue);
+    font-weight: 900;
+    border-radius: 8px;
+    background: var(--darkblue);
+    cursor: pointer;
+    text-align: center;
+}
+.button a{
+    color: var(--darkblue);
+    text-decoration: none;
+}
+.button2 a{
+    color: var(--lightblue);
+    text-decoration: none;
+}

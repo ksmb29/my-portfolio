@@ -1,0 +1,18 @@
+.introduction{
+    padding: 20px 20px 80px 20px;
+    text-align: center;
+    color: var(--lightblue);
+}
+.introduction h2{
+    font-weight: 500;
+    
+}
+.introduction h3{
+    font-weight: 700;
+    color: var(--darkblue);
+}
+@media screen and (min-width:768px){
+    .introduction{
+        padding: 0 80px 80px;
+    }
+}

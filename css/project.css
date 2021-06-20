@@ -1,0 +1,45 @@
+.project{
+    padding:80px 20px;
+    color: white;
+    background:linear-gradient(var(--darkgrey), var(--grey));
+}
+.project-img{
+    text-align: center;
+}
+.project-img img{
+    width: 330px;
+}
+.project_text h1{
+    padding: 8px 10px;
+    background: var(--darkblue);
+    color: white;
+    box-shadow: 5px 5px var(--blue);
+}
+.project_text h2{
+    font-weight: 500;
+}
+@media screen and (min-width:768px){
+    .project{
+        display: flex;
+        align-items: center;
+    }
+    .project:nth-child(odd){
+        flex-direction: row-reverse;
+    }
+    .project-img img{
+        width: 500px;
+    }
+    .project_text{
+        padding: 0 40px;
+    }
+    .button-container{
+        display: flex;
+    }
+    .button-container .button{
+        margin-left: 20px;
+        width: 50%;
+    }
+    .button-container .button{
+        width: 50%;
+    }
+}
